@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=yes, viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="theme-color" content="#2196f3">
+  <!--
+  <meta http-equiv="Content-Security-Policy" content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: gap:;img-src * 'self' 'https://www.youtube.com/'">
+  <meta http-equiv="Access-Control-Allow-Origin" content="*">
+  -->
+  <title>唯星校園</title>
+
+  <link rel="stylesheet" href="lib/framework7-v2/css/framework7.css">
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="js/fullcalendar/fullcalendar.css">
+  <link rel="apple-touch-icon" href="img/items-icon.png">
+  <link rel="icon" href="img/items-icon.png">
+</head>
+
+<body style="background: #4caf50;">
+  <div id="app" class="color-theme-green">
+    <div class="statusbar"></div>
+	
+    <div class="view view-main view-init ios-edges" data-url="/">
+						
+			<div class="toolbar tabbar tabbar-labels toolbar-bottom-md  user-menu-content" style="background: #4caf50;color:#fff;" >
+			</div>	
+	
+			<div class="page toolbar-fixed no-navbar" data-name="home">
+					<div class="page-content" style="background-image: url('img/bg-green.jpg');background-size: cover;">
+							  <div class="row" style="margin: 15px;text-align: center;">
+								
+								<div class="col-33 tablet-15 demo-icon" style="margin-bottom: 10px;">
+								  <a href="/announcement/" >
+								  <div class="demo-icon-icon"><img src="img/bulletin-icon.png" height="65px" width="65px"/></div>
+								  <div class="demo-icon-name simple" style="color: #282829;font: bold 15px Sans-Serif;">學校公告</div>
+								  </a>
+								</div>
+								
+								<div class="col-33 tablet-15 demo-icon" style="margin-bottom: 10px;">
+								  <a href="/news/" >
+								  <div class="demo-icon-icon"><img src="img/news-icon.png" height="65px" width="65px"/></div>
+								  <div class="demo-icon-name simple" style="color: #282829;font: bold 15px Sans-Serif;">最新公告</div>
+								  </a>
+								</div>
+								
+								<div class="col-33 tablet-15 demo-icon" style="margin-bottom: 10px;">
+								  <a href="javascript:" class="pb-standalone-video">
+								  <div class="demo-icon-icon"><img src="img/movie-icon.png" height="65px" width="65px"/></div>
+								  <div class="demo-icon-name simple" style="color: #282829;font: bold 15px Sans-Serif;">直播影片</div>
+								  </a>
+								</div>
+								<!--
+								<div class="col-33 tablet-15 demo-icon" style="margin-bottom: 10px;">
+								  <a href="/score/" >
+								  <div class="demo-icon-icon"><img src="img/score-icon.png" height="65px" width="65px"/></div>
+								  <div class="demo-icon-name simple" style="color: #282829;font: bold 15px Sans-Serif;">成績查詢</div>
+								  </a>
+								</div>
+								-->
+								<!--
+								<div class="col-33 tablet-15 demo-icon" style="margin-bottom: 10px;">
+								  <a href="/service/" >
+								  <div class="demo-icon-icon"><img src="img/service-icon.png" height="65px" width="65px"/></div>
+								  <div class="demo-icon-name simple" style="color: #282829;font: bold 15px Sans-Serif;">設施報修</div>
+								  </a>
+								</div>
+								-->
+								<div class="col-33 tablet-15 demo-icon" style="margin-bottom: 10px;">
+								  <a href="/bus/" >
+								  <div class="demo-icon-icon"><img src="img/bus-icon.png" height="65px" width="65px"/></div>
+								  <div class="demo-icon-name simple" style="color: #282829;font: bold 15px Sans-Serif;">校車資訊</div>
+								  </a>
+								</div>
+								<!--
+								<div class="col-33 tablet-15 demo-icon" style="margin-bottom: 10px;">
+								  <a href="javascript:ScannerCode();" >
+								  <div class="demo-icon-icon"><img src="img/search-icon.png" height="65px" width="65px"/></div>
+								  <div class="demo-icon-name simple" style="color: #282829;font: bold 15px Sans-Serif;">資料查詢</div>
+								  </a>
+								</div>
+								-->
+								<div class="col-33 tablet-15 demo-icon" style="margin-bottom: 10px;">
+								  <a href="javascript:shareapp()" >
+								  <div class="demo-icon-icon"><img src="img/share-icon.png" height="65px" width="65px"/></div>
+								  <div class="demo-icon-name simple" style="color: #282829;font: bold 15px Sans-Serif;">推薦分享</div>
+								  </a>
+								</div>
+								
+								<div class="col-33 tablet-15 demo-icon"></div>
+							  </div>
+						
+					</div>
+					<!-- End: Page Content -->
+			</div> 
+    </div>
+  </div>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="lib/framework7-v2/js/framework7.js"></script>
+    <script type="text/javascript" src="js/routes.js"></script>
+    <script src="js/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" ></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/moment.min.js"></script>
+	<script src="js/fullcalendar/fullcalendar.js"></script>
+	<script src="js/fullcalendar/locale-all.js"></script>
+    <script src="js/my-app.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCPfeADEazSUNwSE1LRGF2vtD-65DBf880"></script>
+</body>
+
+</html>
